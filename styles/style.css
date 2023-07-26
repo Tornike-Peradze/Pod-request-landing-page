@@ -11,7 +11,6 @@ html {
 }
 
 body {
-  overflow: hidden;
   font-family: "Kumbh Sans", sans-serif;
   min-height: 100vh;
   background: linear-gradient(180deg, #b068e9 0%, #6463e7 50%, #f0a1a8 100%);
@@ -21,6 +20,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 12rem 0;
 }
 
 @keyframes changeColor {
@@ -57,37 +57,31 @@ body {
    Mobile Version 
 */
 
-/*
-  ========================================
-    Header 
-  ========================================
-*/
-
 .container {
   width: 32.7rem;
-  height: 53.5rem;
   background-color: white;
   border-radius: 2.3rem;
   box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.5);
   display: flex;
   flex-direction: column;
-}
-
-.photos {
-  margin-bottom: 2.8rem;
   position: relative;
 }
 
 .mob {
   width: 24rem;
   position: absolute;
-  top: 10px;
+  left: 4rem;
 }
 
 .mb {
   width: 24rem;
   position: absolute;
-  top: 5px;
+  top: -11rem;
+  left: 4rem;
+}
+
+.main {
+  padding: 11.2rem 2.4rem 4.8rem;
 }
 
 .title {
@@ -95,4 +89,30 @@ body {
   font-weight: 700;
   color: rgba(30, 31, 54, 1);
   text-align: center;
+  margin-bottom: 4rem;
+}
+
+.faq {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e8e8ea;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question h3 {
+  color: #4b4c5f;
+  font-size: 13px;
+}
+
+.answer {
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 1rem;
+  color: #787887;
+  display: none;
 }
