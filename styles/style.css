@@ -114,5 +114,77 @@ body {
   line-height: 18px;
   padding-top: 1rem;
   color: #787887;
-  display: none;
+  /* display: none; */
+}
+
+/*
+   Desktop Version 
+*/
+@media screen and (min-width: 950px) {
+  .container {
+    width: 92rem;
+    flex-direction: row;
+  }
+  .photos {
+    /* z-index: 2; */
+  }
+
+  .mob {
+    display: none;
+  }
+
+  .mb {
+    display: none;
+  }
+
+  .container {
+    background-image: url(../images/illustration-woman-online-desktop.svg),
+      url(../images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -137px 151px, -494px -156px;
+    background-size: 60%, 100%;
+  }
+
+  .box {
+    display: inline-block;
+    top: 337px;
+    left: -93px;
+  }
+
+  .main {
+    padding: 6.5rem 9.5rem 8.3rem 47.5rem;
+  }
+
+  .title {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(30, 31, 54, 1);
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .faq {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e8e8ea;
+  }
+
+  .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .question h3 {
+    color: #4b4c5f;
+    font-size: 13px;
+  }
+
+  .answer {
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 1rem;
+    color: #787887;
+    /* display: none; */
+  }
 }
