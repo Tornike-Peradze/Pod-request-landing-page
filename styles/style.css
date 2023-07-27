@@ -109,12 +109,41 @@ body {
   font-size: 13px;
 }
 
-.answer {
+.answer p {
   font-size: 12px;
   line-height: 18px;
   padding-top: 1rem;
   color: #787887;
   /* display: none; */
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.faq.active .answer {
+  max-height: 20rem;
+  animation: fade 1s ease-in-out;
+}
+
+.faq.active .arrow {
+  transform: rotate(180deg);
+}
+
+.arrow {
+  transition: transform 0.5s ease-in;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 /*
@@ -124,9 +153,6 @@ body {
   .container {
     width: 92rem;
     flex-direction: row;
-  }
-  .photos {
-    /* z-index: 2; */
   }
 
   .mob {
@@ -147,6 +173,7 @@ body {
 
   .box {
     display: inline-block;
+    position: absolute;
     top: 337px;
     left: -93px;
   }
@@ -156,35 +183,61 @@ body {
   }
 
   .title {
-    font-size: 32px;
-    font-weight: 700;
-    color: rgba(30, 31, 54, 1);
-    text-align: center;
-    margin-bottom: 4rem;
+    text-align: left;
+    margin-bottom: 4.5rem;
   }
 
   .faq {
-    margin-top: 1rem;
-    padding-bottom: 1rem;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
     border-bottom: 2px solid #e8e8ea;
+    cursor: pointer;
   }
 
   .question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    gap: 7.2rem;
   }
 
   .question h3 {
     color: #4b4c5f;
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .answer {
-    font-size: 12px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+  }
+
+  .answer p {
+    font-size: 15px;
     line-height: 18px;
     padding-top: 1rem;
     color: #787887;
-    /* display: none; */
+    transition: max-height 0.2s ease-out;
+  }
+
+  .faq.active .answer {
+    max-height: 20rem;
+    animation: fade 1s ease-in-out;
+  }
+
+  .faq.active .arrow {
+    transform: rotate(180deg);
+  }
+
+  .arrow {
+    transition: transform 0.5s ease-in;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
   }
 }
