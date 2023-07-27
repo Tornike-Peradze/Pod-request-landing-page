@@ -41,8 +41,8 @@ Specifically, the key challenges included:
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://github.com/Tornike-Peradze/Pod-request-landing-page)
+- Live Site URL: (https://tornike-peradze.github.io/Pod-request-landing-page/)
 
 ## My process
 
