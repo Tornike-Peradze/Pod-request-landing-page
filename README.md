@@ -1,94 +1,91 @@
-# Frontend Mentor - FAQ accordion card
+# Frontend Mentor - FAQ Accordion Card
 
-![Design preview for the FAQ accordion card coding challenge](./design/desktop-preview.jpg)
+## Table of contents
 
-## Welcome! 👋
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-Thanks for checking out this front-end coding challenge.
+## Overview
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [FAQ-Accordion-card-landing-page]. It aims to create a visually appealing and visually as close as possible to the original skilled e-learning landing page.
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+### The challenge
 
-## The challenge
+The challenge presented in the FAQ Accordion Card landing page project was to create a responsive and visually appealing landing page using HTML, CSS, and JavaScript. The main goal was to replicate a skilled e-learning platform's FAQ section, allowing users to access information about the platform's features and services.
 
-Your challenge is to build out this FAQ accordion card and get it looking as close to the design as possible.
+Specifically, the key challenges included:
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+- Accordion Interaction: Implementing an accordion-style interaction for the FAQ section where the answers are hidden by default and expand or collapse when the corresponding question is clicked. This required using JavaScript event handling to toggle the visibility of the answer content.
 
-Your users should be able to:
+- Responsive Design: Creating a responsive layout that adapts seamlessly to different screen sizes, such as mobile devices and desktops. This involved using CSS media queries to apply specific styles based on the viewport width.
 
-- View the optimal layout for the component depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Hide/Show the answer to a question when the question is clicked
-- **Bonus**: Complete the challenge without using JavaScript
+- Background Gradient Animation: Animating the background with a gradient that smoothly transitions between multiple colors. This required setting up a CSS animation to create an eye-catching effect.
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+- Styling and Layout: Applying appropriate styles to the elements, including font choices, color schemes, padding, and margins, to achieve a visually pleasing design. Additionally, organizing the content in a structured layout to ensure readability and user-friendly navigation.
 
-## Where to find everything
+- Accessibility and SEO: Ensuring the page's accessibility for users with disabilities by incorporating appropriate ARIA attributes and providing descriptive alt text for images. Moreover, optimizing the page for search engines by adding relevant meta tags, headings, and descriptive text for improved SEO.
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+- Deployment and Documentation: Creating a well-documented README file that provides an overview of the project, including the tools used, what was learned during the development process, and future development plans. Additionally, deploying the completed landing page to a live site for viewing and evaluation.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+### Screenshot
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+![Webpage Preview](./design/desktop-preview.jpg)
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+### Links
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+- Solution URL: ()
+- Live Site URL: ()
 
-## Building your project
+## My process
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+### Built with
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+- HTML: Used for creating the structure and elements of the web page.
+- CSS: Applied styles to enhance the visual presentation and layout of the page.
+- JavaScript: Implemented functionality for email validation and showing success/error messages.
+- Visual Studio Code: A powerful code editor that provided a convenient and efficient development environment.
+- Frontend Mentor: The project was completed as part of a challenge provided by Frontend Mentor. It offers real-life coding challenges to help developers practice their skills and improve their front-end development abilities.
 
-## Deploying your project
+### What I learned
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+Throughout the development of this project, I gained valuable knowledge and skills. Here are some key things I learned:
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+HTML structure: I gained experience in creating the structure of a web page using HTML. I learned how to organize elements to establish the layout effectively.
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+CSS styling: I learned how to apply CSS styles to enhance the visual presentation of the page. This included styling text, backgrounds, and utilizing CSS selectors and properties to achieve the desired design.
 
-## Create a custom `README.md`
+JavaScript event handling: I implemented event listeners to handle user interactions. Specifically, I validated email input using a regular expression and displayed success or error messages accordingly.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+### Continued development
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+I aspire to further enhance my CSS skills by exploring more advanced techniques and concepts. This includes mastering CSS Grid, learning CSS animations and transitions, and creating responsive and interactive user interfaces.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+Additionally, I plan to focus on accessibility and SEO optimization to ensure that my projects are inclusive and can be easily found by search engines.
+To further enhance the page, you can consider the following:
 
-## Submitting your solution
+- Accessibility: Ensure that the page is accessible to users with disabilities by adding appropriate ARIA attributes, alt text for images, and ensuring proper keyboard navigation.
+- SEO optimization: Improve the page's search engine optimization by adding meta tags, relevant headings, and descriptive text.
+- Animation and interactivity: Add subtle animations or transitions to make the page more engaging. Consider adding interactive elements, such as hover effects or interactive components, to provide a richer user experience.
+- Responsive images: Optimize images for different screen sizes by using responsive image techniques, such as srcset and sizes attributes or CSS media queries.
+- Form validation: If there are any forms on the page, consider implementing client-side form validation to improve the user experience and ensure accurate data submission.
+- Overall, the provided code demonstrates a solid foundation for a pre-launch landing page. With further development and improvements, you can create a compelling and user-friendly experience for potential customers of the Typemaster keyboard.
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+### Useful resources
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+- [Example resource 1](https://www.w3schools.com/);
+- [Example resource 2](https://developer.mozilla.org/en-US/);
+- [Example resource 3](https://www.freecodecamp.org/learn/2022/responsive-web-design/);
+- [Example resource 4](https://www.youtube.com/@WebDevSimplified);
 
-## Sharing your solution
+## Author
 
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+- Github - [@Tornike-Peradze](https://github.com/Tornike-Peradze);
+- Linkdin - [@Tornike Peradze](https://www.linkedin.com/in/tornike-peradze-ab508a1a4/);
